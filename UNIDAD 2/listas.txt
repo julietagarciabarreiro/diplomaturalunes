@@ -1,3 +1,5 @@
 pan
 manteca
 azucar
+chocolate
+dulce de leche
