@@ -1,0 +1,43 @@
+.contenedor{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-color: black;
+    border: solid 2px;
+    flex-direction: row-reverse;
+    display: inline-flex;
+    align-items: center;
+    
+    
+}
+
+.rojo{
+    background-color: red;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.azul{ 
+    background-color: blue;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verde{
+    background-color: green;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
