@@ -1,0 +1,151 @@
+header h1{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 100px;
+    display: inline-block;
+    position:absolute;
+    margin-left: 1%;
+    margin-bottom: 0%;
+}
+header{
+    background-color: rgb(77, 77, 214);
+    padding: 1em 0;
+    
+}
+header div img{
+    width: 250px;
+    height: 250px;
+    padding-right: 2em;
+    padding-left: 3em;
+    padding-top: 0em;
+    padding-bottom: 0;  
+}
+nav{
+    background-color: white;
+    color: rgb(77, 77, 214);
+    font-family: 'Anton', sans-serif;   
+    margin-bottom: 2px;
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 24.7%;
+    margin-bottom: 20px;
+}
+nav ul li a{
+    color: rgb(77, 77, 214);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.4em 0.7em;
+    border: rgb(77, 77, 214);
+    border-bottom: solid 2px;
+}
+nav ul li a:hover{
+    background-color: rgb(150, 150, 233);
+}
+.holder{
+    display: flex;
+    flex-direction: row;
+}
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+.columna.left{
+    border-right: 1px solid rgb(77, 77, 214);
+}
+.columna.left h2{
+    font-family: 'Slabo 27px', serif;
+    color: rgb(77, 77, 214);
+}
+.columna.left p{
+    font-family:'Slabo 27px', serif;
+    color: rgb(77, 77, 214);
+}
+
+.columna.right ul li{
+display: inline-block;
+}
+.icono1{
+    color: rgb(77, 77, 214);
+    font-size: 100px;
+    margin-right: 1em;
+}
+.icono2{
+    color: rgb(77, 77, 214);
+    font-size: 100px;
+    margin-right: 1em;
+   
+}
+.icono3{
+    color: rgb(77, 77, 214);
+    font-size: 100px;
+}
+:hover .icono1{
+    color: rgb(51, 173, 51);
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+:hover .icono2{
+    color: rgb(194, 37, 37);
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+:hover .icono3{
+    color: black;
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+.formulario label{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;  
+}
+.formulario input,
+.formulario textarea{
+    background-color: rgb(168, 168, 206);
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 214);
+    font-size: 0.8em;
+    width: 70%;
+}
+.formulario input[type="submit"]{
+    background-color: rgb(77, 77, 214);
+    box-shadow: 0 0 10px rgb(150, 150, 233);
+    color: white;
+    font-size: 1em;
+    width: 100px;
+    cursor: pointer;
+}
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+.formulario .acciones{
+    text-align: center;
+}
+footer{
+    background-color: rgb(223, 223, 223);
+    clear: both;
+    color: rgb(71, 77, 83);
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+}
