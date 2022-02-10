@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio1.css">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+<button id="c1"><div class="cuadrado1"></div></button>
+<button id="c2"><div class="cuadrado2"></div></button>
+<button id="c3"><div class="cuadrado3"></div></button>
+
+<script type="text/javascript">
+    function changeColor(color) {
+        document.querySelector("body").style.background = color  
+    }
+    document.getElementById("c1").addEventListener("click", function(){
+        changeColor("#ff0000")
+    })
+    document.getElementById("c2").addEventListener("click", function(){
+        changeColor("#0000ff")
+    })
+    document.getElementById("c3").addEventListener("click", function(){
+        changeColor("#8a2be2")
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.cuadrado1 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #ff0000;
+    margin: 5px;
+}
+.c1{
+    cursor: pointer;
+
+}
+.cuadrado2 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #0000ff;
+    margin: 5px;
+}
+.c2{
+    cursor: pointer;
+}
+.cuadrado3 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #8a2be2;
+    margin: 5px;
+}
+.c3{
+    cursor: pointer;
+}
