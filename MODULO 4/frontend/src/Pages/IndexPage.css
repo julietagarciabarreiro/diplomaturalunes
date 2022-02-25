@@ -1,0 +1,32 @@
+main div h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(77, 77, 214);
+    text-align: center;
+}
+main div p{
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 15px;
+    background-color: rgb(77, 77, 214);
+    border-radius: 10px;
+    
+}
+
+main div{
+    border-radius: solid 2px;
+    border: rgb(77, 77, 214);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+img{
+    width: 50%;
+    height: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}

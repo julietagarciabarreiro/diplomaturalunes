@@ -1,0 +1,91 @@
+main.holder{
+    display: flex;
+    flex-direction: row;
+}
+.columna.right, .columna.left{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+
+.columna.right ul li{
+display: inline-block;
+}
+.icono1{
+    color: rgb(77, 77, 214);
+    font-size: 100px;
+    margin-right: 1em;
+}
+.icono2{
+    color: rgb(77, 77, 214);
+    font-size: 100px;
+    margin-right: 1em;
+   
+}
+.icono3{
+    color: rgb(77, 77, 214);
+    font-size: 100px;
+}
+:hover .icono1{
+    color: rgb(51, 173, 51);
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+:hover .icono2{
+    color: rgb(194, 37, 37);
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+:hover .icono3{
+    color: black;
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+.formulario label{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;  
+}
+.formulario input,
+.formulario textarea{
+    background-color: rgb(168, 168, 206);
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 214);
+    font-size: 0.8em;
+    width: 90%;
+}
+.formulario input[type="submit"]{
+    background-color: rgb(77, 77, 214);
+    color: white;
+    font-size: 1em;
+    width: 100px;
+    cursor: pointer;
+    
+}
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+.columna.left{
+    border-right: 1px solid rgb(77, 77, 214);
+    float: left;
+}
+.columna.left h2{
+    font-family: 'Slabo 27px', serif;
+    color: rgb(77, 77, 214);
+}
+.columna.left p{
+    font-family:'Slabo 27px', serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
