@@ -1,0 +1,9 @@
+.novedades {
+    padding-left: 2em;
+    padding-right: 2em;
+    color: rgb(26, 26, 105);
+}
+
+.novedades h1 {
+    font-size: 2em;
+}

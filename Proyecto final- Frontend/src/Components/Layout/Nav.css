@@ -1,0 +1,36 @@
+nav{
+    background-color: white;
+    color: rgb(26, 26, 105);
+    font-family: 'Anton', sans-serif; 
+    font-weight: bold;  
+    margin-bottom: 2px;
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 20px;
+}
+nav ul li a{
+    color: rgb(26, 26, 105);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.4em 0.7em;
+    border: rgb(26, 26, 105);
+    border-bottom: solid 2px;
+}
+nav ul li a:hover{
+    background-color: rgb(150, 150, 233)
+}
+img{
+    width: 50%;
+    height: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}

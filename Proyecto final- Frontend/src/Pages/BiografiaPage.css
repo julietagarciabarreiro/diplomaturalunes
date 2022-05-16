@@ -1,0 +1,8 @@
+.Biografía p{
+    font-family: 'Slabo 27px', serif;
+    font-size: 25px;
+    color: rgb(26, 26, 105);
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    padding-right: 2em;
+}
