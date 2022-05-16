@@ -1,0 +1,20 @@
+header h1{
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 100px;
+  margin-left: 44%;
+}
+
+header{
+  background-color: rgb(77, 77, 214);
+  padding: 1em 0;
+}
+footer{
+  background-color: rgb(223, 223, 223);
+  clear: both;
+  color: rgb(71, 77, 83);
+  padding: 3em 0;
+  margin-top: 2em;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+}
